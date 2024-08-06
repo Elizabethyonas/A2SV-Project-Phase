@@ -1,6 +1,6 @@
 # To-Do List Web App
 
-![Description]([./Page_Images](https://github.com/Elizabethyonas/A2SV-Project-Phase/blob/To_Do_List_APP/Page_Images/Screenshot%202024-08-06%20144122.png))
+![Description](./Page_Images/Screenshot 2024-08-06 144122.png)
 
 
 This is a simple To-Do List web application built using HTML, CSS, and JavaScript. The app allows users to add, delete, and edit their tasks. Additionally, users can see their accomplishments via a progress bar. This web app also uses local storage to save the tasks, ensuring they persist even after the browser is closed.
