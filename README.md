@@ -1,6 +1,6 @@
 # To-Do List Web App
 
-![Description](Page_Images/Screenshot_2024-08-06_144122.png)
+![Description](/Page_Images/Screenshot_2024-08-06_144122.png)
 
 
 
