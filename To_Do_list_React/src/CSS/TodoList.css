@@ -1,0 +1,133 @@
+
+.todoContainer {
+  width: 100%;
+  max-width: 900px; /* Set the maximum width */
+  margin: 0 auto;
+  background-color: black; /* Set the background to black */
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.todos {
+  background: rgb(44, 44, 44);
+  font-size: 20px;
+  font-weight: 500;
+  max-height: 500px;
+  overflow-y: auto;
+  color: #fff; /* White text color */
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 1px 1px 4px -2px blue;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  transition: all .3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(63, 161, 226, 0.3);
+}
+
+.items:hover {
+  box-shadow: 1px 1px 6px -1px rgb(128, 255, 0);
+  cursor: pointer;
+}
+
+.editText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(44, 44, 44);
+}
+
+.editText > button {
+  margin: 0 5px;
+  display: flex;
+  background: #555; /* Dark gray background for buttons */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.editText > button:hover {
+  background: #777; /* Lighter gray on hover */
+}
+
+.editText > input {
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  background: rgb(44, 44, 44);
+  padding: 10px;
+  box-shadow: 1px 1px 5px -2px red;
+  margin: 0 10px;
+}
+
+button svg {
+  vertical-align: middle; /* Align icon with text (if any) */
+  color: #fff; /* Ensure icon color is white */
+}
+
+button {
+  cursor: pointer;
+  color: #fff; /* White text */
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+
+
+.deleteBtn{
+  background: #555;
+}
+
+.editBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin: 10px;
+}
+
+.editBtn > span {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.items > button {
+  color: red;
+  background: transparent;
+  border: none;
+}
+
+/* Scrollbar styles */
+/* .todos::-webkit-scrollbar {
+  width: 12px; 
+}
+
+.todos::-webkit-scrollbar-thumb {
+  background-color: #888; 
+  border-radius: 6px; 
+} */
+
+.todos::-webkit-scrollbar-track {
+  background-color: #eee; /* Set the color of the track */
+}
+
+.editedText input {
+  color: #fff; /* White text inside input */
+  background-color: #333; /* Dark background for input field */
+  border: 1px solid #444; /* Border color for input */
+  padding: 5px; /* Padding for input */
+  border-radius: 3px; /* Rounded corners for input */
+}
+
+
