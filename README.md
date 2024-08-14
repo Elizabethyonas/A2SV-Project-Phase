@@ -1,24 +1,27 @@
-# To-Do List Web App
+# Job Listing Web App
 
-![Description](/Page_Images/A.png)
-![Description](/Page_Images/B.png)
-![Description](/Page_Images/C.png)
-![Description](/Page_Images/D.png)
+## When the page is loading
+![Description](/Pages/F.png)
+## A page where all job lists appear
+![Description](/Pages/A.png)
+![Description](/Pages/B.png)
+![Description](/Pages/C.png)
+![Description](/Pages/G.png)
+## When a job list card is clicked it will display the details of that specific job
+![Description](/Pages/D.png)
+![Description](/Pages/E.png)
 
 
 
 
-This is a simple To-Do List web application built using HTML, CSS, and JavaScript. The app allows users to add, delete, and edit their tasks. Additionally, users can see their accomplishments via a progress bar. This web app also uses local storage to save the tasks, ensuring they persist even after the browser is closed.
+
+This is a Job posting web application built using NextJs and tailwind css. I use a backend of akil to get all data to populate the card and get the detail of every job posts. and use API endpoints to fetch the data.
 
 ## Features
 
-- Add tasks
-- Delete tasks
-- Edit tasks
-- View progress with a progress bar
-- Persistent storage using local storage
-- Local Storage
-This app uses the browser's local storage to save tasks. This means that your tasks will be saved even if you close the browser or refresh the page.
+- Display a list of jop postings in card form 
+- When the card is clicked it will display the detail of that job post.
+
 
 ## Instructions
 
@@ -26,24 +29,19 @@ This app uses the browser's local storage to save tasks. This means that your ta
 
 1. **Clone the Repository**
    
-   git clone https://github.com/your-username/todo-list-app.git
-   cd todo-list-app
-2. **Open your vscode or anyother tool you use and open the index.html code with live server**
+   git clone https://github.com/your-username/akil.git
+
+2. **Open your vscode or any code editor of your choice**
+3. **Open your terminal and run the following commands**
+   cd akil
+   npm install
+   npm run dev
 
 ### How to Use
 
-1. **Add a Task**
-   - Enter the task in the input field.
-   - Click the "Add Task" button or press Enter to add the task to the list.
+1. **View job lists by scrolling**
+   
 
-2. **Delete a Task**
-   - Click the "Delete" button next to the task you want to remove.
+2. **Click the card that contains the job post**
 
-3. **Edit a Task**
-   - Click the "Edit" button next to the task you want to modify.
-   - Update the task in the input field and press Enter to save the changes.
-
-4. **View Progress**
-   - The progress bar at the top shows the percentage of tasks completed.
-
-
+3 **You will be able to see the details of that job.**
