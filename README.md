@@ -38,9 +38,10 @@ This is a Job posting web application built using NextJs and tailwind css. I use
 
 2. **Open your vscode or any code editor of your choice**
 3. **Open your terminal and run the following commands**
-   ### cd akil
+   ### cd auth
    ### npm install
    ### npm run dev
+   ### Navigate to (http://localhost:3000/) to see the website
 
 ### How to Use
 
