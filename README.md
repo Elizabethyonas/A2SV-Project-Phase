@@ -7,7 +7,7 @@
 ![Description](/Pages/C.png)
 ![Description](/Pages/D.png)
 ## Sign in option using Google account
-![Description](/Pages/D.png)
+![Description](/Pages/J.png)
 ## Sign Up page to create an account
 ![Description](/Pages/E.png)
 ![Description](/Pages/F.png)
