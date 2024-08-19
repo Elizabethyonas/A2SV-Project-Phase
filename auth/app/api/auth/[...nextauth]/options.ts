@@ -26,10 +26,10 @@ import { JWT } from "next-auth/jwt";
 
 export const options: NextAuthOptions = {
   providers: [
-    GoogleProvider({
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
-      clientId: process.env.GOOGLE_CLIENT_ID as string,
-    }),
+    // GoogleProvider({
+    //   clientSecret: process.env.GOOGLE_CLIENT_SECRET as string,
+    //   clientId: process.env.GOOGLE_CLIENT_ID as string,
+    // }),
     CredentialsProvider({
       name: "Credentials",
       credentials: {
