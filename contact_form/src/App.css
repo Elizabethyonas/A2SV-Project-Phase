@@ -1,0 +1,68 @@
+#root {
+  margin-left: 350px;
+  width: 500px;
+  padding: 2rem;
+  align-self: center;
+  text-align: center;
+  background-color: black;
+  border-radius: 15%;
+  box-shadow: 1px 1px 2px rgb(235, 245, 242);
+}
+
+label {
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  box-shadow: -1px -1px 3px rgb(235, 245, 242);
+  
+  border-radius: 4px;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="number"]:hover,
+input[type="date"]:hover {
+  box-shadow: -2px -2px 6px rgb(0, 200, 150);
+  border-color: rgb(0, 200, 150);
+}
+
+
+/* input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-size: 14px;
+  box-shadow: -1px -1px 3px rgb(48, 240, 192);
+} */
+
+.error {
+  color: red;
+  font-size: 12px;
+  text-align: left;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  align-content: center;
+}
